@@ -1,9 +1,12 @@
-{ "name": "ftp2",
+{
+  "name": "ftp2",
   "version": "0.3.11",
   "author": "Brian White <mscdex@mscdex.net>",
   "description": "An FTP client module for node.js",
   "main": "./lib/connection",
-  "engines": { "node" : ">=0.8.0" },
+  "engines": {
+    "node": ">=0.8.0"
+  },
   "dependencies": {
     "xregexp": "*",
     "readable-stream": "*",
@@ -12,7 +15,23 @@
   "scripts": {
     "test": "node test/test.js"
   },
-  "keywords": [ "ftp", "client", "transfer" ],
-  "licenses": [ { "type": "MIT", "url": "http://github.com/cfal/node-ftp2/raw/master/LICENSE" } ],
-  "repository" : { "type": "git", "url": "http://github.com/cfal/node-ftp2.git" }
+  "keywords": [
+    "ftp",
+    "client",
+    "transfer"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/cfal/node-ftp2/raw/master/LICENSE"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/cfal/node-ftp2.git"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^2.0.0"
+  }
 }
