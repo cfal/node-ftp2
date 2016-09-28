@@ -1,6 +1,8 @@
 Description
 ===========
 
+node-ftp2 is a fork of [node-ftp](https://github.com/mscdex/node-ftp) with bugfixes and proxy support.
+
 node-ftp is an FTP client module for [node.js](http://nodejs.org/) that provides an asynchronous interface for communicating with an FTP server.
 
 
