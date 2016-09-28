@@ -1,8 +1,8 @@
 {
   "name": "ftp2",
-  "version": "0.3.11",
-  "author": "Brian White <mscdex@mscdex.net>",
-  "description": "An FTP client module for node.js",
+  "version": "0.3.12",
+  "author": "Brian White <mscdex@mscdex.net>, cfal",
+  "description": "An FTP client module for node.js with proxy support. Forked from node-ftp",
   "main": "./lib/connection",
   "engines": {
     "node": ">=0.8.0"
@@ -31,7 +31,7 @@
     "url": "http://github.com/cfal/node-ftp2.git"
   },
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-uglify": "^2.0.0"
+    "gulp": "*",
+    "gulp-uglify": "*"
   }
 }
