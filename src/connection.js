@@ -939,10 +939,10 @@ FTP.prototype._pasv = function(cb) {
         // try the IP of the control connection if the server was somehow
         // misconfigured and gave for example a LAN IP instead of WAN IP over
         // the Internet
-        if (self._socket && ip !== self._socket.remoteAddress) {
-          ip = self._socket.remoteAddress;
-          return reentry();
-        }
+        // if (self._socket && ip !== self._socket.remoteAddress) {
+        //   ip = self._socket.remoteAddress;
+        //   return reentry();
+        // }
 
         // automatically abort PASV mode
         self._send('ABOR', function() {
