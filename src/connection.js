@@ -319,7 +319,6 @@ FTP.prototype.connect = function(options) {
 
   } else {
 
-    secureOptions.socket = socket;
     this._socket = socket;
     socket.once('connect', onconnect);
     this.setupSocket(socket);
